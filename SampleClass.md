@@ -18,11 +18,11 @@ Constructs a SampleClass with an argument.
 ---
 ## Properties
 
-### AnotherProp
+### `AnotherProp` → `Decimal`
 
 This is a Decimal property.
 
-### MyProp
+### `MyProp` → `String`
 
 This is a String property.
 
@@ -50,7 +50,7 @@ Inner class belonging to SampleClass.
 ---
 #### Properties
 
-### InnerProp
+##### `InnerProp` → `public`
 
 Description of the inner property.
 
@@ -68,7 +68,7 @@ Inner class belonging to SampleClass.
 ---
 ##### Properties
 
-### InnerProp
+###### `InnerProp` → `public`
 
 Description of the inner property.
 
