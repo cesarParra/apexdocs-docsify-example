@@ -2,6 +2,13 @@
 
 This is a class description.
 
+## Related
+
+[SampleClass](/Miscellaneous/SampleClass.md)
+
+
+[SampleInterface](/Miscellaneous/SampleInterface.md)
+
 ---
 ## Constructors
 ### `AccountService()`

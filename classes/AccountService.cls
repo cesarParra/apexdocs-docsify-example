@@ -1,5 +1,7 @@
 /**
  * @description This is a class description.
+ * @see SampleClass
+ * @see SampleInterface
  * @group Account
  */
 public with sharing class AccountService {
