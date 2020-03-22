@@ -1,10 +1,21 @@
 /**
- * @description This is a class description.
+ * @description This is a class description. This class is related to <<AccountServiceInterface>>.
  * @see SampleClass
  * @see SampleInterface
  * @group Account
  */
 public with sharing class AccountService {
+    /**
+     * @description This is my test enum.
+     */
+    public enum MyTestEnum {
+        VALUE_1,
+        VALUE_2,
+        VALUE_3
+    }
+
+    public enum SingleLineEnum { VALUE_1, VALUE_2 }
+
     /**
      * @description Constructs a AccountService without any arguments.
      * @example

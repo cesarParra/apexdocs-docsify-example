@@ -1,6 +1,6 @@
 # AccountService class
 
-This is a class description.
+This is a class description. This class is related to [AccountServiceInterface](/Account/AccountServiceInterface.md).
 
 ## Related
 
@@ -10,14 +10,13 @@ This is a class description.
 [SampleInterface](/Miscellaneous/SampleInterface.md)
 
 ---
-## Constructors
-### `AccountService()`
+## Enums
+### MyTestEnum
 
-Constructs a AccountService without any arguments.
-#### Example
-```<pre>
-AccountService sampleInstance = new AccountService();
-```
+
+This is my test enum.
+
+### SingleLineEnum
 
 ---
 ## Properties
