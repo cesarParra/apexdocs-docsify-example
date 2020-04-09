@@ -8,9 +8,11 @@ This is a class description.
 
 Constructs a SampleClass without any arguments.
 #### Example
-```<pre>
+```
+<pre>
 SampleClass sampleInstance = new SampleClass();
 ```
+
 
 ### `SampleClass(String argument)`
 
@@ -37,10 +39,12 @@ Calls the method. This methods allows you to call it.
 
 Executes commands based on the passed in argument.
 #### Example
-```<pre>
+```
+<pre>
 String result = SampleClass.testMethod();
 System.debug(result);
 ```
+
 
 ---
 ## Inner Classes

@@ -19,7 +19,6 @@ public with sharing class AccountService {
     /**
      * @description Constructs a AccountService without any arguments.
      * @example
-     * <pre>
      * AccountService sampleInstance = new AccountService();
      */
     public AccountService() {
@@ -30,7 +29,6 @@ public with sharing class AccountService {
      * @description Executes commands based on the passed in argument.
      * @param argument Example argument.
      * @example
-     * <pre>
      * String result = AccountService.testMethod();
      * System.debug(result);
      */

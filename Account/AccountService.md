@@ -10,6 +10,17 @@ This is a class description. This class is related to [AccountServiceInterface](
 [SampleInterface](/Miscellaneous/SampleInterface.md)
 
 ---
+## Constructors
+### `AccountService()`
+
+Constructs a AccountService without any arguments.
+#### Example
+```
+AccountService sampleInstance = new AccountService();
+```
+
+
+---
 ## Enums
 ### MyTestEnum
 
@@ -44,10 +55,11 @@ Executes commands based on the passed in argument.
 |`argument` |  Example argument. |
 
 #### Example
-```<pre>
+```
 String result = AccountService.testMethod();
 System.debug(result);
 ```
+
 
 ---
 ## Inner Classes
