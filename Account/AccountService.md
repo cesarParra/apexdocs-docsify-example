@@ -2,6 +2,10 @@
 
 This is a class description. This class is related to [AccountServiceInterface](/Account/AccountServiceInterface.md).
 
+
+**Author:** John Doe
+
+**Date:** 1/1/2020
 ## Related
 
 [SampleClass](/Miscellaneous/SampleClass.md)

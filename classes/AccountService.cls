@@ -1,5 +1,7 @@
 /**
  * @description This is a class description. This class is related to <<AccountServiceInterface>>.
+ * @author John Doe
+ * @date 1/1/2020
  * @see SampleClass
  * @see SampleInterface
  * @group Account
