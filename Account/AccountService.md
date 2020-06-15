@@ -2,10 +2,6 @@
 
 This is a class description. This class is related to [AccountServiceInterface](/Account/AccountServiceInterface.md).
 
-
-**Author:** John Doe
-
-**Date:** 1/1/2020
 ## Related
 
 [SampleClass](/Miscellaneous/SampleClass.md)
@@ -17,12 +13,11 @@ This is a class description. This class is related to [AccountServiceInterface](
 ## Constructors
 ### `AccountService()`
 
-Constructs a AccountService without any arguments.
+Constructs a AccountService without any arguments. Test using [AccountServiceInterface](/Account/AccountServiceInterface.md) and another [MyEnum](/Miscellaneous/MyEnum.md)
 #### Example
 ```
 AccountService sampleInstance = new AccountService();
 ```
-
 
 ---
 ## Enums
@@ -49,11 +44,10 @@ This is a String property.
 ### `call()` → `void`
 
 Calls the method. This methods allows you to call it.
-
 ### `testMethod(String argument)` → `String`
 
 Executes commands based on the passed in argument.
-#### Parametes
+#### Parameters
 |Param|Description|
 |-----|-----------|
 |`argument` |  Example argument. |
@@ -63,7 +57,6 @@ Executes commands based on the passed in argument.
 String result = AccountService.testMethod();
 System.debug(result);
 ```
-
 
 ---
 ## Inner Classes
@@ -84,7 +77,6 @@ Description of the inner property.
 ##### `innerMethod()` → `void`
 
 Executes from the inner class.
-
 ---
 ### AccountService.InnerClass class
 
@@ -102,5 +94,4 @@ Description of the inner property.
 ##### `innerMethod()` → `void`
 
 Executes from the inner class.
-
 ---

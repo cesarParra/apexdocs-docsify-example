@@ -19,7 +19,7 @@ public with sharing class AccountService {
     public enum SingleLineEnum { VALUE_1, VALUE_2 }
 
     /**
-     * @description Constructs a AccountService without any arguments.
+     * @description Constructs a AccountService without any arguments. Test using {@link AccountServiceInterface} and another {@link MyEnum}
      * @example
      * AccountService sampleInstance = new AccountService();
      */

@@ -13,11 +13,9 @@ Constructs a SampleClass without any arguments.
 SampleClass sampleInstance = new SampleClass();
 ```
 
-
 ### `SampleClass(String argument)`
 
 Constructs a SampleClass with an argument.
-
 ---
 ## Properties
 
@@ -34,7 +32,6 @@ This is a String property.
 ### `call()` → `void`
 
 Calls the method. This methods allows you to call it.
-
 ### `testMethod(String argument)` → `String`
 
 Executes commands based on the passed in argument.
@@ -44,7 +41,6 @@ Executes commands based on the passed in argument.
 String result = SampleClass.testMethod();
 System.debug(result);
 ```
-
 
 ---
 ## Inner Classes
@@ -65,7 +61,6 @@ Description of the inner property.
 ##### `innerMethod()` → `void`
 
 Executes from the inner class.
-
 ---
 ### SampleClass.InnerClass class
 
@@ -83,5 +78,4 @@ Description of the inner property.
 ##### `innerMethod()` → `void`
 
 Executes from the inner class.
-
 ---
