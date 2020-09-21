@@ -6,6 +6,7 @@
  * @see SampleInterface
  * @group Account
  */
+ @NamespaceAccessible
 public with sharing class AccountService {
     /**
      * @description This is my test enum.
@@ -16,6 +17,41 @@ public with sharing class AccountService {
         VALUE_3
     }
 
+    /**
+     * @description - This method is where the actual work occurs. It's run once per batch.
+     * @param context - dependency injected by the system
+     * @param scope - a list of up to 200 SObject records to be processed
+     *   in this batch. It's this mechanism of breaking a large number of records
+     *   into smaller batches called scope (in this example) that make this easier
+     **/
+    public void execute(
+        Database.BatchableContext context,
+        List<Account> scope
+    ) { }
+
+/**
+     * @description - Demonstrates how to use the Database.insert() method to persist a net-new
+     *  record to the database.
+     * @param  name         name Passed through to the account created
+     * @param  allOrNothing allOrNothing determines whether or not all accounts to be inserted must insert successfully
+     */
+    public static void insertAccountsViaDatabaseMethod(
+        String name,
+        Boolean allOrNothing
+    ) {
+        Account acct = new Account(name = name);
+        Account acct2 = new Account();
+
+        try {
+            if (CanTheUser.create(acct)) {
+                Database.insert(new List<Account>{ acct, acct2 }, allOrNothing);
+            }
+        } catch (DMLException DMLe) {
+            throw new CustomDMLException('Failed');
+        }
+    }
+
+    @NamespaceAccessible
     public enum SingleLineEnum { VALUE_1, VALUE_2 }
 
     /**
@@ -23,6 +59,7 @@ public with sharing class AccountService {
      * @example
      * AccountService sampleInstance = new AccountService();
      */
+     @NamespaceAccessible
     public AccountService() {
         System.debug('Constructor');
     }

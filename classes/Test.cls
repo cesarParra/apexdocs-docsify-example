@@ -1,20 +1,23 @@
 public class Test {
-  /**
-   * @description Contact map that represents the trigger.oldMap map passed in
-   from the trigger
-   */
-   private Map<Id, Contact> oldContactMap = new Map<Id, Contact>();
-
-   /**
-    * @description Contact list that represents the trigger.new list passed in from the
-    trigger
-    */
-    private List<Contact> currentContactList = new List<Contact>();
-
-    /**
-     * description This is a generic description
-     * @example
-     * determineListForContacts();
+/**
+     * @description - Demonstrates how to use the Database.insert() method to persist a net-new
+     *  record to the database.
+     * @param  name         name Passed through to the account created
+     * @param  allOrNothing allOrNothing determines whether or not all accounts to be inserted must insert successfully
      */
-     private void determineListForContacts();
+    public static void insertAccountsViaDatabaseMethod(
+        String name,
+        Boolean allOrNothing
+    ) {
+        Account acct = new Account(name = name);
+        Account acct2 = new Account();
+
+        try {
+            if (CanTheUser.create(acct)) {
+                Database.insert(new List<Account>{ acct, acct2 }, allOrNothing);
+            }
+        } catch (DMLException DMLe) {
+            throw new CustomDMLException('Failed');
+        }
+    }
 }

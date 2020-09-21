@@ -1,23 +1,13 @@
 # Test class
 ---
-## Properties
-
-### `currentContactList` → `List<Contact>`
-
-Contact list that represents the trigger.new list passed in from the trigger
-
-### `oldContactMap` → `Contact>`
-
-Contact map that represents the trigger.oldMap map passed in from the trigger
-
----
 ## Methods
-### `determineListForContacts()` → `void`
+### `insertAccountsViaDatabaseMethod(String name,Boolean allOrNothing)` → `void`
 
- description This is a generic description
-#### Example
-```
-determineListForContacts();
-```
+- Demonstrates how to use the Database.insert() method to persist a net-new record to the database.
+#### Parameters
+|Param|Description|
+|-----|-----------|
+|`name` |          name Passed through to the account created |
+|`allOrNothing` |  allOrNothing determines whether or not all accounts to be inserted must insert successfully |
 
 ---
