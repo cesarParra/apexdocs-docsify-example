@@ -1,10 +1,6 @@
 ---
 layout: default
 ---
-# Welcome to the Apex Docs documentation example.
-
-This content will be added to the top of the home page.
-
 # Classes
 ## Account
 
@@ -41,5 +37,12 @@ This is a class description.
 
 
 This is an interface description.
+
+
+
+### [Test](/Miscellaneous/Test.md)
+
+
+
 
 
