@@ -1,9 +1,0 @@
-{
-  "home": {
-    "header": "./header.md"
-  },
-  "content": {
-    "includeAuthor": true,
-    "includeDate": true
-  }
-}
