@@ -6,10 +6,10 @@ layout: default
 This is a class description.
 
 
-**See** [SomeDto](/Miscellaneous/SomeDto.md)
+**See** [SomeDto](./SomeDto.md)
 
 
-**See** [SampleInterface](/Sample-Interfaces/SampleInterface.md)
+**See** [SampleInterface](../Sample-Interfaces/SampleInterface.md)
 
 ## Methods
 ### `static getActiveSurveySettings(String surveyType2)`
@@ -17,6 +17,7 @@ This is a class description.
 Some description
 
 #### Parameters
+
 |Param|Description|
 |---|---|
 |`surveyType2`|my value|
@@ -37,6 +38,7 @@ whatever
 Executes commands based on the passed in argument.
 
 #### Parameters
+
 |Param|Description|
 |---|---|
 

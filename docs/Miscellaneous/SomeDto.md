@@ -6,11 +6,12 @@ layout: default
 Some description
 
 
-**See** [ASampleClass](/Miscellaneous/ASampleClass.md)
+**See** [ASampleClass](./ASampleClass.md)
 
 ## Constructors
 ### `SomeDto(nams.Order proForma)`
 #### Parameters
+
 |Param|Description|
 |---|---|
 
@@ -42,6 +43,7 @@ Used in cartItem.html
 #### Constructors
 ##### `CartItemDto(String id, String description, Decimal quantity, Decimal price, String currencyCode, String productImage, Boolean isDiscounted, Decimal adjustedAmount, String discountReason)`
 ###### Parameters
+
 |Param|Description|
 |---|---|
 
