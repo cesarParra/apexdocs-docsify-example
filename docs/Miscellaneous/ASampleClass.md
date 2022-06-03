@@ -6,10 +6,10 @@ layout: default
 This is a class description.
 
 
-**See** [SomeDto](Misc/SomeDto.md)
+**See** [SomeDto](/Miscellaneous/SomeDto.md)
 
 
-**See** [SampleInterface](Sample-Interfaces/SampleInterface.md)
+**See** [SampleInterface](/Sample-Interfaces/SampleInterface.md)
 
 ## Methods
 ### `static getActiveSurveySettings(String surveyType2)`

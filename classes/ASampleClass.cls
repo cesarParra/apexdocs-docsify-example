@@ -1,6 +1,7 @@
 /**
  * @description This is a class description.
  * @see SomeDto
+ * @see SampleInterface
  */
 public class ASampleClass {
     public static Map<String, Object> getActiveSurveySettings(String surveyType2) {

@@ -9,7 +9,7 @@ This is an interface description.
 **Group** Sample Interfaces
 
 
-**See** SampleClass
+**See** [SampleClass](SampleClass)
 
 ## Methods
 ### `execute()`

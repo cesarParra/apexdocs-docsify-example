@@ -4,7 +4,7 @@
   "description": "### [AccountService](/Account/AccountService.md)",
   "main": "index.js",
   "dependencies": {
-    "@cparra/apexdocs": "^2.2.1",
+    "@cparra/apexdocs": "^2.4.0",
     "docsify-cli": "^4.4.1"
   },
   "devDependencies": {},

@@ -4,15 +4,15 @@ layout: default
 # Classes
 ## Miscellaneous
 
-### [ASampleClass](/Misc/ASampleClass.md)
+### [ASampleClass](/Miscellaneous/ASampleClass.md)
 
 This is a class description.
 
-### [CodeControl](/Misc/CodeControl.md)
+### [CodeControl](/Miscellaneous/CodeControl.md)
 
 
 
-### [SomeDto](/Misc/SomeDto.md)
+### [SomeDto](/Miscellaneous/SomeDto.md)
 
 Some description
 ## Sample Interfaces
