@@ -17,9 +17,9 @@ This is a class description.
 Some description
 
 #### Parameters
+
 |Param|Description|
 |---|---|
-
 |`surveyType2`|my value|
 
 #### Return
