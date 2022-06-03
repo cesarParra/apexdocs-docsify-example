@@ -37,11 +37,6 @@ whatever
 
 Executes commands based on the passed in argument.
 
-#### Parameters
-
-|Param|Description|
-|---|---|
-
 ### `static call()`
 
 Calls the method. This methods allows you to call it.

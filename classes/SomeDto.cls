@@ -86,6 +86,10 @@ public with sharing class SomeDto {
     @AuraEnabled
     public Decimal Discounts { get; set; }
 
+    /**
+     * @description Constructs a CartDto
+     * @param proForma The pro forma
+     */
     public CartDto(nams.Order proForma) {
         this.Items = new List<CartDto.CartItemDto>();
         this.SubTotal = proForma.getSubTotal().getValue().setScale(2);

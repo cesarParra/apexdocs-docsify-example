@@ -10,10 +10,14 @@ Some description
 
 ## Constructors
 ### `SomeDto(nams.Order proForma)`
+
+Constructs a CartDto
+
 #### Parameters
 
 |Param|Description|
 |---|---|
+|`proForma`|The pro forma|
 
 ---
 ## Properties
@@ -42,11 +46,6 @@ Used in cartItem.html
 
 #### Constructors
 ##### `CartItemDto(String id, String description, Decimal quantity, Decimal price, String currencyCode, String productImage, Boolean isDiscounted, Decimal adjustedAmount, String discountReason)`
-###### Parameters
-
-|Param|Description|
-|---|---|
-
 ---
 #### Properties
 
