@@ -4,6 +4,11 @@
  * @see SampleInterface
  */
 public class ASampleClass {
+    /**
+     * @description Some description
+     * @param surveyType2 my value
+     * @return whatever
+     */
     public static Map<String, Object> getActiveSurveySettings(String surveyType2) {
         System.debug('Map based example');
     }
