@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # Apex Reference Guide
 
 ## Miscellaneous

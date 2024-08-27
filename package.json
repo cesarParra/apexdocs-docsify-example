@@ -9,7 +9,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "generate": "apexdocs markdown"
+    "generate": "apexdocs markdown",
+    "serve": "docsify serve docs"
   },
   "repository": {
     "type": "git",

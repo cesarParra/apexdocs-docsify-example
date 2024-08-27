@@ -7,9 +7,6 @@ export default defineMarkdownConfig({
     transformReferenceGuide: (ref) => {
         return {
             outputDocPath: 'README.md',
-            frontmatter: {
-                layout: "default"
-            }
         };
     },
 });
