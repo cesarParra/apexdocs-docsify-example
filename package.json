@@ -4,12 +4,12 @@
   "description": "### [AccountService](/Account/AccountService.md)",
   "main": "index.js",
   "dependencies": {
-    "@cparra/apexdocs": "^2.4.0",
+    "@cparra/apexdocs": "^3.0.0-beta.1",
     "docsify-cli": "^4.4.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "apexdocs-generate -s classes -t docs --scope public global"
+    "generate": "apexdocs markdown -s classes -t docs --scope public global"
   },
   "repository": {
     "type": "git",

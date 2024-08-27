@@ -1,108 +1,244 @@
----
-layout: default
----
-# SomeDto
+# SomeDto Class
 
 Some description
 
+**See** [ASampleClass](ASampleClass.md)
 
-**See** [ASampleClass](./ASampleClass.md)
+## Properties
+### `Items`
+
+`AURAENABLED`
+
+#### Signature
+```apex
+public Items
+```
+
+#### Type
+List&lt;CartItemDto&gt;
+
+---
+
+### `SubTotal`
+
+`AURAENABLED`
+
+#### Signature
+```apex
+public SubTotal
+```
+
+#### Type
+Decimal
+
+---
+
+### `Total`
+
+`AURAENABLED`
+
+#### Signature
+```apex
+public Total
+```
+
+#### Type
+Decimal
+
+---
+
+### `Discounts`
+
+`AURAENABLED`
+
+#### Signature
+```apex
+public Discounts
+```
+
+#### Type
+Decimal
 
 ## Constructors
-### `SomeDto(nams.Order proForma)`
+### `SomeDto(proForma)`
 
 Constructs a CartDto
 
+#### Signature
+```apex
+public SomeDto(nams.Order proForma)
+```
+
 #### Parameters
+| Name | Type | Description |
+|------|------|-------------|
+| proForma | nams.Order | The pro forma |
 
-|Param|Description|
-|---|---|
-|`proForma`|The pro forma|
-
----
-## Properties
-
-### `Discounts` → `Decimal`
-
-`AURAENABLED` 
-
-### `Items` → `List<CartItemDto>`
-
-`AURAENABLED` 
-
-### `SubTotal` → `Decimal`
-
-`AURAENABLED` 
-
-### `Total` → `Decimal`
-
-`AURAENABLED` 
-
----
 ## Classes
-### CartItemDto
+### CartItemDto Class
 
 Used in cartItem.html
 
-#### Constructors
-##### `CartItemDto(String id, String description, Decimal quantity, Decimal price, String currencyCode, String productImage, Boolean isDiscounted, Decimal adjustedAmount, String discountReason)`
----
 #### Properties
+##### `Id`
 
-##### `AdjustedPrice` → `Decimal`
-
-`AURAENABLED` 
-
-AdjustedPrice If the item has been discounted, this contains the adjusted (lower) price.
-
-##### `CurrencyCode` → `String`
-
-`AURAENABLED` 
-
-The currency code for this item.
-
-##### `Description` → `String`
-
-`AURAENABLED` 
-
-Description The description to display for this item.
-
-##### `DiscountReason` → `String`
-
-`AURAENABLED` 
-
-DiscountReason If the item has been discounted, this contains a human-readable reason for the discount.
-
-##### `Id` → `String`
-
-`AURAENABLED` 
+`AURAENABLED`
 
 Id Unique identifier for this object.
 
-##### `IsDiscounted` → `Boolean`
+###### Signature
+```apex
+public Id
+```
 
-`AURAENABLED` 
+###### Type
+String
 
-IsDiscounted Whether the item has been discounted or not.
+---
 
-##### `Price` → `Decimal`
+##### `Description`
 
-`AURAENABLED` 
+`AURAENABLED`
 
-Price Calculated price for this item.
+Description The description to display for this item.
 
-##### `ProductImage` → `String`
+###### Signature
+```apex
+public Description
+```
 
-`AURAENABLED` 
+###### Type
+String
 
-ProductImage Main display image to display for this item.
+---
 
-##### `Quantity` → `Decimal`
+##### `Quantity`
 
-`AURAENABLED` 
+`AURAENABLED`
 
 Quantity Amount of this item currently in the cart.
 
----
+###### Signature
+```apex
+public Quantity
+```
+
+###### Type
+Decimal
 
 ---
+
+##### `Price`
+
+`AURAENABLED`
+
+Price Calculated price for this item.
+
+###### Signature
+```apex
+public Price
+```
+
+###### Type
+Decimal
+
+---
+
+##### `CurrencyCode`
+
+`AURAENABLED`
+
+The currency code for this item.
+
+###### Signature
+```apex
+public CurrencyCode
+```
+
+###### Type
+String
+
+---
+
+##### `ProductImage`
+
+`AURAENABLED`
+
+ProductImage Main display image to display for this item.
+
+###### Signature
+```apex
+public ProductImage
+```
+
+###### Type
+String
+
+---
+
+##### `IsDiscounted`
+
+`AURAENABLED`
+
+IsDiscounted Whether the item has been discounted or not.
+
+###### Signature
+```apex
+public IsDiscounted
+```
+
+###### Type
+Boolean
+
+---
+
+##### `AdjustedPrice`
+
+`AURAENABLED`
+
+AdjustedPrice If the item has been discounted, this contains the adjusted (lower) price.
+
+###### Signature
+```apex
+public AdjustedPrice
+```
+
+###### Type
+Decimal
+
+---
+
+##### `DiscountReason`
+
+`AURAENABLED`
+
+DiscountReason If the item has been discounted, this contains a human-readable reason for the discount.
+
+###### Signature
+```apex
+public DiscountReason
+```
+
+###### Type
+String
+
+#### Constructors
+##### `CartItemDto(id, description, quantity, price, currencyCode, productImage, isDiscounted, adjustedAmount, discountReason)`
+
+###### Signature
+```apex
+public CartItemDto(String id, String description, Decimal quantity, Decimal price, String currencyCode, String productImage, Boolean isDiscounted, Decimal adjustedAmount, String discountReason)
+```
+
+###### Parameters
+| Name | Type | Description |
+|------|------|-------------|
+| id | String |  |
+| description | String |  |
+| quantity | Decimal |  |
+| price | Decimal |  |
+| currencyCode | String |  |
+| productImage | String |  |
+| isDiscounted | Boolean |  |
+| adjustedAmount | Decimal |  |
+| discountReason | String |  |

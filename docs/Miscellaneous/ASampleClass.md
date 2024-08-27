@@ -1,16 +1,8 @@
----
-layout: default
----
-# ASampleClass
+# ASampleClass Class
 
 This is a class description.
 
-
-**See** [SomeDto](./SomeDto.md)
-
-
-**See** [SampleInterface](../Sample-Interfaces/SampleInterface.md)
-
+**Mermaid** 
 
 ```mermaid
 sequenceDiagram
@@ -25,31 +17,72 @@ sequenceDiagram
     iframe->>iframe: render mermaid
 ```
 
+**See** [SomeDto](SomeDto.md)
+
+**See** [SampleInterface](../sample-interfaces/SampleInterface.md)
 
 ## Methods
-### `public static Map<String,Object> getActiveSurveySettings(String surveyType2)`
+### `getActiveSurveySettings(surveyType2)`
 
 Some description
 
+#### Signature
+```apex
+public static Map<String,Object> getActiveSurveySettings(String surveyType2)
+```
+
 #### Parameters
+| Name | Type | Description |
+|------|------|-------------|
+| surveyType2 | String | my value |
 
-|Param|Description|
-|---|---|
-|`surveyType2`|my value|
+#### Return Type
+**Map&lt;String,Object&gt;**
 
-#### Returns
+whatever
 
-|Type|Description|
-|---|---|
-|`Map<String,Object>`|whatever|
+---
 
-### `public static List<String> someMethod()`
-### `public static String sampleMethod(List<String> argument)`
+### `someMethod()`
+
+#### Signature
+```apex
+public static List<String> someMethod()
+```
+
+#### Return Type
+**List&lt;String&gt;**
+
+---
+
+### `sampleMethod(argument)`
 
 Executes commands based on the passed in argument.
 
-### `public static void call()`
+#### Signature
+```apex
+public static String sampleMethod(List<String> argument)
+```
 
-Calls the method. This methods allows you to call it.
+#### Parameters
+| Name | Type | Description |
+|------|------|-------------|
+| argument | List&lt;String&gt; |  |
+
+#### Return Type
+**String**
 
 ---
+
+### `call()`
+
+Calls the method. 
+This methods allows you to call it.
+
+#### Signature
+```apex
+public static void call()
+```
+
+#### Return Type
+**void**

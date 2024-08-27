@@ -8,8 +8,9 @@ public with sharing class SampleClass {
     /**
      * @description Constructs a SampleClass without any arguments.
      * @example
-     * <pre>
+     * ```apex
      * SampleClass sampleInstance = new SampleClass();
+     * ```
      */
     @NamespaceAccessible
     public SampleClass() {
@@ -27,12 +28,13 @@ public with sharing class SampleClass {
     /**
      * @description Executes commands based on the passed in argument.
      * @example
-     * <pre>
+     * ```apex
      * String result = SampleClass.testMethod();
      * System.debug(result);
+     * ```
      */
     @NamespaceAccessible
-    public static String testMethod(String argument) {
+    public static String someTestMethod(String argument) {
         System.debug('Execute');
         return '';
     }
@@ -62,9 +64,7 @@ public with sharing class SampleClass {
         /**
          * @description Description of the inner property.
          */
-        public InnerProp {
-            get; set;
-        }
+        public String InnerProp {get; set;}
 
         /**
          * @description Executes from the inner class.
@@ -81,7 +81,7 @@ public with sharing class SampleClass {
         /**
          * @description Description of the inner property.
          */
-        public InnerProp {
+        public String InnerProp {
             get; set;
         }
 
