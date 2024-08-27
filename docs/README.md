@@ -1,22 +1,29 @@
 ---
 layout: default
 ---
-# Classes
+
+# Apex Reference Guide
+
 ## Miscellaneous
 
-### [ASampleClass](./Miscellaneous/ASampleClass.md)
+### [ASampleClass](miscellaneous/ASampleClass.md)
 
 This is a class description.
 
-### [CodeControl](./Miscellaneous/CodeControl.md)
+### [CodeControl](miscellaneous/CodeControl.md)
 
-
-
-### [SomeDto](./Miscellaneous/SomeDto.md)
+### [SomeDto](miscellaneous/SomeDto.md)
 
 Some description
+
+## Sample Classes
+
+### [SampleClass](sample-classes/SampleClass.md)
+
+This is a class description.
+
 ## Sample Interfaces
 
-### [SampleInterface](./Sample-Interfaces/SampleInterface.md)
+### [SampleInterface](sample-interfaces/SampleInterface.md)
 
 This is an interface description.

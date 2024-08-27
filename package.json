@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "generate": "apexdocs markdown -s classes -t docs --scope public global"
+    "generate": "apexdocs markdown"
   },
   "repository": {
     "type": "git",
