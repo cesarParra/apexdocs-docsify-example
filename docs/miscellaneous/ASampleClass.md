@@ -17,9 +17,9 @@ sequenceDiagram
     iframe->>iframe: render mermaid
 ```
 
-**See** [SomeDto](SomeDto.md)
+**See** [SomeDto](miscellaneous/SomeDto.md)
 
-**See** [SampleInterface](../sample-interfaces/SampleInterface.md)
+**See** [SampleInterface](sample-interfaces/SampleInterface.md)
 
 ## Methods
 ### `getActiveSurveySettings(surveyType2)`

@@ -4,7 +4,7 @@ This is an interface description.
 
 **Group** Sample Interfaces
 
-**See** [SampleClass](../sample-classes/SampleClass.md)
+**See** [SampleClass](sample-classes/SampleClass.md)
 
 ## Methods
 ### `execute()`

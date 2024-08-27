@@ -6,7 +6,7 @@ This is a class description.
 
 **Group** Sample Classes
 
-**See** [SampleInterface](../sample-interfaces/SampleInterface.md)
+**See** [SampleInterface](sample-interfaces/SampleInterface.md)
 
 ## Properties
 ### `MyProp`

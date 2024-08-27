@@ -2,7 +2,7 @@
 
 Some description
 
-**See** [ASampleClass](ASampleClass.md)
+**See** [ASampleClass](miscellaneous/ASampleClass.md)
 
 ## Properties
 ### `Items`
